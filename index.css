@@ -1,0 +1,125 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+.main{
+    background-color: black;
+    padding-bottom: 0px;
+}
+.header{
+    display: flex;
+    gap: 30px;
+    width: 760px;
+    height: 454px;
+    align-items: center;
+    
+}
+
+.section1{
+    display: flex;
+    flex-direction: column;
+    width: 350px;
+    height: 434px;
+    border: 1px solid black;
+    box-sizing: border-box;
+    border-radius: 10px 10px;
+    background-color: white;
+}
+
+.section2{
+    display: flex;
+    flex-direction: column;
+    width: 350px;
+    height: 434px;
+    border-radius: 10px;
+    background-color: #FFD100;
+    border: 1px solid black;
+}
+
+.img{
+    width: 170.03px;
+    height: 200.35px;
+    padding: 50.77px 51.83px;
+    rotate: 30;
+}
+.text{
+    display: flex;
+    flex-direction: column;
+    width: 290px;
+    height: 98px;
+    padding: 20px 30px;
+}
+.lorem{
+width: 290px;
+height: 58px;
+padding: 1px 30px;
+font-size: 24px;
+line-height: 28.8px;
+font-family: Rubik;
+text-align: left;
+
+}
+.id{
+    width: 290px;
+    height: 25px;
+    padding: 0px 30px;
+    font-size: 14px;
+    line-height: 25.2px;
+    font-family: Rubik; 
+    font-weight: 400;
+}
+.rub1,.rub2{
+   
+    padding: 1px 30px;
+    font-family: Rubik;
+    text-align: right;   
+ 
+}
+.rub1{
+    width: 290px;
+    height: 22px;
+    font-size: 18px; 
+    color: gray;
+    line-height: 21.6px;
+    text-decoration: line-through;
+}
+.rub2{
+    width: 290px;
+    height: 52px;
+    font-size: 43px; 
+    color: red;
+    font-weight: 500;
+    line-height: 51.6px;
+}
+.shopping-bag1,.shopping-bag2{
+  background-color: black;  
+  width: 45px;
+  height: 41px;
+  position: absolute;
+  top: 385px;
+  border-radius: 5px 5px;
+  border: 10px solid black;
+  background-size: contain;
+
+}
+
+.shopping-bag1{
+    left: 0px;
+  
+  }
+
+  .shopping-bag2{
+    left: auto;
+
+  }
+
+.sale{
+    color: red;
+    width: 86px;
+    height: 86px;
+    background-position: left top;
+    position: absolute;
+    top: -0px;
+    left: auto;
+  
+  }
